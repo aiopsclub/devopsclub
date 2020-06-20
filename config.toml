@@ -1,0 +1,19 @@
+baseURL = "https://www.aiopsclub.com"
+languageCode = "en-us"
+title = "Aiopsclub"
+theme = "hugo-theme-learn"
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+[params]
+  # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
+  # Useful to give opportunity to people to create merge request for your doc.
+  # See the config.toml file from this documentation site to have an example.
+  editURL = "https://github.com/aiopsclub"
+  # Author of the site, will be used in meta information
+  author = "苑雄雄"
+  # Description of the site, will be used in meta information
+  description = "python,ops,ai,ansible,database"
+  # Order sections in menu by "weight" or "title". Default to "weight"
+  ordersectionsby = "weight"
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "blue"
