@@ -12,3 +12,12 @@ theme = "hugo-theme-learn"
   themeVariant = "blue"
   logo_image = "https://www.aiopsclub.com/images/logo.png" 
   logo_text = "Devops充电宝"
+  [params.gitcomment]
+    enable = true
+    owner = "aiopsclub"
+    repo = "devopsclub"
+    clientId = "c6d44425b504d43f80bc"
+    admin = ["yxxhero"]
+    clientSecret = "db3f6ce31b5aca799c8a45562f59173a19b48608" 
+  [params.qrcode]
+    wx_url = "https://www.aiopsclub.com/images/wxqrcode.jpg" 
