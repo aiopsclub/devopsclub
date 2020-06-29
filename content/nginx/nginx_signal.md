@@ -34,7 +34,7 @@ nginx -s reopen
 滚动日志，这在我们的日志文件过大时，我们将日志文件mv后，发现日志文件仍在写入，这是由于mv后的文件inode相关信息不变，进行还会将日志写入到该文件中。这时我们就可以执行reopen操作，nginx就会关闭原来的句柄，在配置的日志目录下重新创建新的日志文件来进行日志记录。
 ```
 
-## kill命令控制 
+## 2. kill命令控制 
 说到kill命令，它是在linux系统中，通过进程pid向进程发送信号的。我们可以通过kill向nginx的master进程发送特定的信号来进行对nginx的控制。至于nginx的master的pid，我们可以通过pid文件获取，也可以用ps和grep命令过滤即可。
 
 nginx主进程支持的信号:
@@ -62,7 +62,7 @@ pid=`ps auxf | grep "nginx: master"|grep -v grep|awk '{print $2}'`
 kill -QUIT $pid
 ```
 
-## nginx配置文件检查
+## 3. nginx配置文件检查
 ```shell
 # 在重启或者重载配置文件前需要检查nginx配置的正确性
 nginx -c /path/to/nginx.conf -t
