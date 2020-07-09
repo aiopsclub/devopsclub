@@ -16,8 +16,8 @@ theme = "hugo-theme-learn"
     enable = true
     owner = "aiopsclub"
     repo = "devopsclub"
-    clientId = "f1b91f58cb7783221452"
+    clientId = ""
     admin = ["yxxhero"]
-    clientSecret = "a400dd53f1ba7eb79d062ca3671f014481af7a3e" 
+    clientSecret = "" 
   [params.qrcode]
     wx_url = "https://www.aiopsclub.com/images/wxqrcode.jpg" 
