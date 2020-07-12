@@ -1,7 +1,7 @@
-+++
-title = "flask特性之配置系统"
-weight = 11
-+++
+---
+title : "flask特性之配置系统"
+weight : 11
+---
 
 
 # `flask`之配置系统

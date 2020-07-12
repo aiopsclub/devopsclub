@@ -1,8 +1,8 @@
-+++
-title = "flask源码目录"
-chapter = true
-weight = 1
-+++
+---
+title : "flask源码目录"
+chapter : true
+weight : 1
+---
 首先我们一览flask的源码结构
 
 ```shell

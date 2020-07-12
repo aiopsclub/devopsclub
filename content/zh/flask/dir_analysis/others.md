@@ -1,7 +1,7 @@
-+++
-title = "flask源码之其他目录"
-weight = 5 
-+++
+---
+title : "flask源码之其他目录"
+weight : 5 
+---
 # 其他文件  
 除了artwork、docs、examples和tests目录，其余的普通文件和隐藏文件都为开发、开源协议和打包相关文件。  
 

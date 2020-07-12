@@ -1,7 +1,7 @@
-+++
-title = "Nginx系列之nginx七层反向代理"
-weight = 6 
-+++
+---
+title : "Nginx系列之nginx七层反向代理"
+weight : 6 
+---
 
 > nginx不仅仅是静态服务器，它依赖`ngx_http_proxy_module`和`ngx_http_upstream_module`等模块，实现了http七层代理， 支持缓存、自定义头部、上游服务器容错等特性，现在很多公司拿它当做网关，做请求分发。接下来就看一下nginx是如何来配置从而成为反向代理服务器。
 

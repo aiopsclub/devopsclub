@@ -1,7 +1,7 @@
-+++
-title = "短短几行 flask到底做了啥"
-weight = 1 
-+++
+---
+title : "短短几行 flask到底做了啥"
+weight : 1 
+---
 
 # `flask`流程分析
 首先我们先来看一个简单的flask应用:  

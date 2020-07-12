@@ -1,7 +1,7 @@
-+++
-title = "全局对象session解析"
-weight = 6 
-+++
+---
+title : "全局对象session解析"
+weight : 6 
+---
 
 # `flask`全局对象之`session`
 

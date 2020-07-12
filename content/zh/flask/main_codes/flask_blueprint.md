@@ -1,7 +1,7 @@
-+++
-title = "flask特性之blueprint"
-weight = 9 
-+++
+---
+title : "flask特性之blueprint"
+weight : 9 
+---
 
 # flask之`blueprint`
 ---

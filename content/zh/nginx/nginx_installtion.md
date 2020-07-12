@@ -1,7 +1,7 @@
-+++
-title = "Nginx系列之nginx安装部署"
-weight = 2
-+++
+---
+title : "Nginx系列之nginx安装部署"
+weight : 2
+---
 > 了解了nginx的强大之处，相信您恨不得马上上手开干。接下来就展示一下nginx多种部署方式，让你见识一下如此复杂的nginx竟也能如此平易近人，在你的手上，乖乖听话，任你号令。
 
 ##  nginx安装之包管理器

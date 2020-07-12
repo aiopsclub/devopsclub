@@ -1,7 +1,7 @@
-+++
-title = "flask源码之doc目录"
-weight = 3 
-+++
+---
+title : "flask源码之doc目录"
+weight : 3 
+---
 # `docs`目录  
 从目录名中就可以知道，此目录是存放flask文档的位置，flask是利用rst格式进行书写的，可以利用sphinx生成清晰而且优美的文档，新版的python3
 的文档就是有sphinx工具生成，同时，它已经以成为python项目中首选的文档工具，具体可参考sphink官方网站[sphink](https://www.sphinx-doc.org/en/master/)  

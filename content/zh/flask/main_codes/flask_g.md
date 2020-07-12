@@ -1,7 +1,7 @@
-+++
-title = "全局对象g解析"
-weight = 4 
-+++
+---
+title : "全局对象g解析"
+weight : 4 
+---
 
 # `flask`全局对象之`g`
 

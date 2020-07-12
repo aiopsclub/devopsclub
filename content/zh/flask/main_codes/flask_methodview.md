@@ -1,7 +1,7 @@
-+++
-title = "flask特性之methodview"
-weight = 10 
-+++
+---
+title : "flask特性之methodview"
+weight : 10 
+---
 
 # flask之`methodview`
 ---

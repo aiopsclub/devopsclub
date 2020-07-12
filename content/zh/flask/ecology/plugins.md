@@ -1,7 +1,7 @@
-+++
-title = "flask扩展"
-weight = 2 
-+++
+---
+title : "flask扩展"
+weight : 2 
+---
 
 ## plugins
 flask的扩展可以从下面的网站寻找自己需要的扩展：  

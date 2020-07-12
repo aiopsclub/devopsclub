@@ -1,7 +1,7 @@
-+++
-title = "Nginx系列之nginx四层反向代理"
-weight = 7 
-+++
+---
+title : "Nginx系列之nginx四层反向代理"
+weight : 7 
+---
 
 > 上集说到nginx的http七层代理，其实它工作在OSI七层模型的应用层。由于其可以解析http协议，我们可以根据URI进行请求的分发，具有很大的灵活性，但是协议的解析存在性能的消耗。为了能获取更高的代理性能，nginx支持了四层代理，即传输层，就是我们常说的TCP/UDP层，没有协议解析，就是简单的TCP/UDP转发，代理性能突飞猛进，该功能依赖于ngx_http_upstream_module和ngx_stream_upstream_module，互联网公司将其作为入口代理来工作。
 

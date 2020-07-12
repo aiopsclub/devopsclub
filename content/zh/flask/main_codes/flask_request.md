@@ -1,7 +1,7 @@
-+++
-title = "全局对象request解析"
-weight = 3 
-+++
+---
+title : "全局对象request解析"
+weight : 3 
+---
 
 # `flask`全局对象之`request`
 

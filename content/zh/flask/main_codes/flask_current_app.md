@@ -1,7 +1,7 @@
-+++
-title = "全局对象current_app解析"
-weight = 5 
-+++
+---
+title : "全局对象current_app解析"
+weight : 5 
+---
 
 # `flask`全局对象之`current_app`
 

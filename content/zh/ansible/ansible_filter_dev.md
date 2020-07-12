@@ -1,7 +1,7 @@
-+++
-title = "ansible系列之filter插件开发"
-weight = 1
-+++
+---
+title : "ansible系列之filter插件开发"
+weight : 1
+---
 > ansible是流行的自动化运维工具，他不仅仅有丰富且强大的功能，同时还支持灵活的扩展。我们可以自定义module和plugin来支持我们业务系统个性化的需求。只有想不到，没有做不到。今天我们先来学习一下filter插件是如何开发的。
 
 ## filter插件官方示例

@@ -1,7 +1,7 @@
-+++
-title = "flask特性之signal系统"
-weight = 7 
-+++
+---
+title : "flask特性之signal系统"
+weight : 7 
+---
 
 # `flask`的信号系统
 ---

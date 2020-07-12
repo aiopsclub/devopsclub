@@ -1,7 +1,7 @@
-+++
-title = "flask特性之模板系统"
-weight = 12
-+++
+---
+title : "flask特性之模板系统"
+weight : 12
+---
 
 
 # flask之模板系统

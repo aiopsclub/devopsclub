@@ -1,7 +1,7 @@
-+++
-title = "Nginx系列之nginx配置文件"
-weight = 3 
-+++
+---
+title : "Nginx系列之nginx配置文件"
+weight : 3 
+---
 
 > Nginx有很多功能，那这些功能的控制是怎么样的呢？这就需要nginx配置文件来支持，nginx的配置逻辑很强大和灵活，支持逻辑判断等高级功能，但这并不意味nginx的配置很复杂，接下来就开始学习如何配置nginx吧。
 

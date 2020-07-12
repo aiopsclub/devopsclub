@@ -1,9 +1,9 @@
-+++
-title = "flask系列"
-chapter = true
-weight = 3 
-pre = "<b>3. </b>"
-+++
+---
+title : "flask系列"
+chapter : true
+weight : 3 
+pre : "<b>3. </b>"
+---
 
 ## 前言
 ```shell

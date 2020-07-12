@@ -1,8 +1,8 @@
-+++
-title = "flask主程序剖析"
-chapter = true
-weight = 2
-+++
+---
+title : "flask主程序剖析"
+chapter : true
+weight : 2
+---
 # `src/flask`目录
 主要文件：
 * json：涉及到flask的json的序列化和反序列化函数和类
