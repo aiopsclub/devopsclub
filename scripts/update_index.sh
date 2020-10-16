@@ -18,5 +18,5 @@
 #===============================================================================
 
 set -o nounset                                  # Treat unset variables as an error
-cd ../content
+cd /opt/hugo/content
 hugo-algolia -s --config ../config.yaml -i "zh/**"  --output ../public/algolia.json
