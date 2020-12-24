@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+
+{{ if isset .Params "state" }}
+<div class="notices info">
+	<p>文档当前状态：{{ .Params.state }} </p>
+</div>
+{{end}}
+
+{{ .Content }}
+
+<footer class="footline">
+	{{ $modifierDisplayName := default .Site.Params.DefaultModifierDisplayName .Params.LastModifierDisplayName }}
+	{{ $modifierURL := default .Site.Params.DefaultModifierURL .Params.LastModifierURL }}
+	{{with $modifierDisplayName }}
+	<i class='fas fa-user'></i> <a href="{{ $modifierURL }}">{{ . }}</a>
+    {{end}}
+	{{with $.Date}} <i class='fas fa-calendar'></i> {{ .Format "2006-01-02" }}{{end}}
+</footer>
+
+{{ partial "footer.html" . }}

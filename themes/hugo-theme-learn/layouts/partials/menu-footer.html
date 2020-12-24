@@ -1,0 +1,20 @@
+<div style="text-align: center;" >
+  <div style="height:100%; margin-bottom:3px; font-weight: bold;">敬请关注Devops充电宝</div>
+  <img src="{{ .Site.Params.Qrcode.wx_url }}" />
+</div>
+{{ if isset .Site.Params.github "repo" }}
+<center>
+
+    <!-- Place this tag where you want the button to render. -->
+    <a class="github-button" href="https://github.com/{{ .Site.Params.github.repo }}" data-icon="octicon-star"
+        data-show-count="true" aria-label="Star imroc/kubernetes-practice-guide on GitHub">Star</a>
+
+    <!-- Place this tag where you want the button to render. -->
+    <a class="github-button" href="https://github.com/{{ .Site.Params.github.repo }}/fork"
+        data-icon="octicon-repo-forked" data-show-count="true"
+        aria-label="Fork {{ .Site.Params.github.repo }} on GitHub">Fork</a>
+
+</center>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+{{ end }}
