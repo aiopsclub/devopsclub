@@ -19,18 +19,18 @@
 <br />
 <p align="center">
   <a href="https://github.com/aiopsclub/devopsclub">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="150" height="75">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Aiopsclub
     <br />
     <a href="https://github.com/aiopsclub/devopsclub"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/aiopsclub/devopsclub">View Demo</a>
+    <a href="https://aiopsclub.com">View Demo</a>
     ·
     <a href="https://github.com/aiopsclub/devopsclub/issues">Report Bug</a>
     ·
@@ -129,7 +129,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [yuanxiongxiong](https://aiopsclub.com) - aiopsclub@163.com
+[yuanxiongxiong](https://aiopsclub.com) - aiopsclub@163.com
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
