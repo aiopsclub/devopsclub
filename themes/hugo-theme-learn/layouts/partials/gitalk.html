@@ -5,6 +5,7 @@
   {{ $id := md5 .File.Path }}
   console.log("gitalk id:{{ $id }}")
   var gitalk = new Gitalk({
+      proxy: 'https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token',
       clientID: '{{.Site.Params.Gitcomment.clientId}}',
       clientSecret: '{{.Site.Params.Gitcomment.clientSecret}}',
       repo: '{{.Site.Params.Gitcomment.repo}}',

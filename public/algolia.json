@@ -2,7 +2,7 @@
     {
         "title": "aiopsclub",
         "uri": "",
-        "content": "Devops       devops",
+        "content": "Devops       DevOps                                      aiopsclub 163 com github  github com yxxhero",
         "objectID": ""
     },
     {
@@ -36,8 +36,24 @@
         "content": "devops",
         "objectID": "devops",
         "chapter": true,
-        "weight": 6,
-        "pre": "<b>6. </b>"
+        "weight": 7,
+        "pre": "<b>7. </b>"
+    },
+    {
+        "title": "docker系列",
+        "uri": "docker",
+        "content": "docker",
+        "objectID": "docker",
+        "weight": 5,
+        "chapter": true,
+        "pre": "<b>5. </b>"
+    },
+    {
+        "title": "docker系列之buildkit",
+        "uri": "docker/docker_buildkit",
+        "content": "buildkit BuildKit    buildkit      docker                                                                              OCI  runc   containerd                              root    BuildKit build    Buildkit      LLB BuildKit         LLB                               LLB                         Protobuf messages                          BuildKit      RUN   mount               dockerfile           bash syntax docker dockerfile 1 2   RUN   mount       mount   mount                                              secrets   ssh agent                             RUN   mount type bind                      image                                                                 target  required            source        from     from        from                                        rw readwrite                  RUN   mount type cache                        Option  Description                                       id                target  required            ro readonly           sharing   shared  private  locked        shared  shared                   private                    locked                    mount    from                             source        from         from        mode                 0755    uid           ID     0    gid          ID     0   RUN   mount type tmpfs          build     tmpfs   Option  Description                                       target  required           RUN   mount type secret                                      Option  Description                                       id   secret id     target path basename    target            run secrets    id    required        true  secret              false    mode             0400    uid   UID     0    gid   Group ID     0   RUN   mount type ssh               ssh agent   SSH keys         Option  Description                                       id   SSH        ID      default     target   SSH             run buildkit ssh_agent   N     required        true  secret              false    mode              0600    uid   socket   ID    0    gid   socket  ID    0   BuildKit      RUN   security insecure sandbox             dockerfile         bash  syntax docker dockerfile 1 2 labs       security insecure                                         containerd       docker run   privileged         security insecure       buildkitd        allow unsecure entitlement security insecure     allow security insecure        sandbox         security sandbox              BuildKit      RUN   network none host default             dockerfile         bash  syntax docker dockerfile 1 2 labs                            BuildKit        docker 18 06   BuildKit       docker build      docker BUILDKIT 1                   https   github com moby buildkit https   docs docker com develop develop images build_enhancements  https   github com moby buildkit blob master frontend dockerfile docs syntax md",
+        "objectID": "docker/docker_buildkit",
+        "weight": 1
     },
     {
         "title": "flask系列",
@@ -218,8 +234,15 @@
         "content": "k8s",
         "objectID": "kubernetes",
         "chapter": true,
-        "weight": 5,
-        "pre": "<b>5. </b>"
+        "weight": 6,
+        "pre": "<b>6. </b>"
+    },
+    {
+        "title": "kubernetes之介绍与优势",
+        "uri": "kubernetes/k8s_desc",
+        "content": "kubernetes   Kubernetes   k8s                                         k8s                                               Kubernetes                                k8s                Kubernetes               Google   2014      Kubernetes           Google                                              kubernetes   k8s                                                    OS                 CPU                              OS                                         VM                                                                                                                                                                                                                                     Ubuntu RHEL CoreOS     Google Kubernetes Engine                                         OS          OS                                                                                                            kubernetes     Kubernetes                      Kubernetes                                  Kubernetes      DNS        IP                     Kubernetes                              Kubernetes                                                Kubernetes                                               Kubernetes                                              Kubernetes             CPU     RAM               Kubernetes                          Kubernetes                                                                   Kubernetes                   OAuth     ssh                                                         Kubernetes                          CRI CSI CNI             k8s                         k8s           k8s            k8s                                k8s",
+        "objectID": "kubernetes/k8s_desc",
+        "weight": 1
     },
     {
         "title": "Nginx系列",
