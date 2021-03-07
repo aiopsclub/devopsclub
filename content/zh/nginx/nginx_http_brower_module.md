@@ -64,7 +64,7 @@ Syntax: ancient_browser string ...;
 Default:    —
 Context:    http, server, location
 ```
-配置"User-Agent"头还有何种子串时，被判断为古老浏览器，特殊子串"netscape4"等价于正则表达式: ^Mozilla/[1-4]
+配置"User-Agent"头有何种子串时，被判断为古老浏览器，特殊子串"netscape4"等价于正则表达式: ^Mozilla/[1-4]
 
 ```shell
 Syntax: ancient_browser_value string;
@@ -94,4 +94,4 @@ Context:    http, server, location
 当识别为现代浏览器时，$modern_browser变量的值，默认为1;
 
 ## 4.总结
-`ngx_http_browser_module`提供了浏览器兼容的判断机制，使我们在做新旧浏览器兼容处理时更为优雅，与高效，同学们可以在实际需求中多加运用，将业务逻辑中的浏览器版本抽离出来，是业务更像业务，无需考虑其他。  
+`ngx_http_browser_module`提供了浏览器兼容的判断机制，使我们在做新旧浏览器兼容处理时更为优雅与高效，同学们可以在实际需求中多加运用，将业务逻辑中的浏览器版本抽离出来，使得业务更像业务，无需考虑其他。  
